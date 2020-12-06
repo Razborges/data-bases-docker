@@ -2,3 +2,4 @@ postgres/postgres
 mysql/mysql
 dynamo/dynamodb
 mariadb/mariadb
+cassandra/cass
