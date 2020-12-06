@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  cassandra:
+    image: 'bitnami/cassandra:latest'
+    environment:
+      CASSANDRA_USER: cassandra
+      CASSANDRA_PASSWORD: cassandra
+    ports:
+      - 9042:9042
+    volumes:
+        - $PWD/cass:/var/lib/cassandra
